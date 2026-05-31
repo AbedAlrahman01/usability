@@ -1,0 +1,26 @@
+column_name,description
+participant_id,Anonymous participant ID.
+age_group,Participant age range.
+role,Participant role/persona.
+data_literacy,"Self-estimated ability to understand charts/data: Low, Medium, High."
+device,Device used during the usability test.
+prototype_version,Dashboard version tested. Prototype B is the improved version.
+task_id,Task identifier.
+task_name,Usability task performed by the participant.
+task_category,High-level task type.
+task_success,"1 = participant completed the task correctly, 0 = did not complete correctly."
+completion_time_sec,"Time needed to complete the task, in seconds."
+clicks,Number of clicks/interactions used for the task.
+errors,Observed user errors during the task.
+help_needed,"1 = moderator help was needed, 0 = no help needed."
+ease_of_use_1_5,"Survey rating: app was easy to use, from 1 low to 5 high."
+visual_clarity_1_5,"Survey rating: charts and layout were visually clear, from 1 low to 5 high."
+filter_usability_1_5,"Survey rating: filters were understandable/useful, from 1 low to 5 high."
+confidence_in_answer_1_5,"Survey rating: user felt confident in the answer found, from 1 low to 5 high."
+satisfaction_1_5,"Survey rating: overall satisfaction, from 1 low to 5 high."
+accessibility_rating_1_5,"Survey rating: readability/accessibility of the dashboard, from 1 low to 5 high."
+avg_rating_1_5,Average of the six rating columns.
+usability_score_0_100,"Combined score using success, time, errors, and ratings."
+most_confusing_element,Element that caused the most confusion.
+comment_sentiment,"Positive, Neutral, or Negative sentiment based on open comment."
+open_comment,Short qualitative feedback from the participant.

@@ -1,0 +1,161 @@
+participant_id,age_group,role,data_literacy,device,prototype_version,task_id,task_name,task_category,task_success,completion_time_sec,clicks,errors,help_needed,ease_of_use_1_5,visual_clarity_1_5,filter_usability_1_5,confidence_in_answer_1_5,satisfaction_1_5,accessibility_rating_1_5,avg_rating_1_5,usability_score_0_100,most_confusing_element,comment_sentiment,open_comment
+P001,18-24,Administrative Staff,Medium,Desktop,Prototype A,T1,Find the overall satisfaction score,Overview,1,52,6,0,0,3,4,4,4,3,4,3.67,85.0,Chart labels,Neutral,"The app was understandable, but some labels could be clearer."
+P001,18-24,Administrative Staff,Medium,Desktop,Prototype A,T2,Filter results by user group,Filtering,1,54,7,1,0,3,4,4,3,4,4,3.67,81.0,Filters,Neutral,"The app was understandable, but some labels could be clearer."
+P001,18-24,Administrative Staff,Medium,Desktop,Prototype A,T3,Identify the worst-rated feature,Analysis,1,81,8,0,0,4,3,4,4,4,4,3.83,83.1,None,Positive,The filters were clear and useful.
+P001,18-24,Administrative Staff,Medium,Desktop,Prototype A,T4,Find detailed comments for a selected issue,Details,1,100,7,0,0,3,3,4,4,4,3,3.5,78.0,None,Positive,The overview cards helped me start quickly.
+P002,18-24,Student,Low,Tablet,Prototype A,T1,Find the overall satisfaction score,Overview,1,69,4,2,1,3,4,3,3,4,3,3.33,72.5,Chart labels,Neutral,"I found the answer, but it took a little time."
+P002,18-24,Student,Low,Tablet,Prototype A,T2,Filter results by user group,Filtering,0,165,13,1,1,2,3,3,2,3,3,2.67,29.6,Mobile layout,Negative,The chart labels were confusing.
+P002,18-24,Student,Low,Tablet,Prototype A,T3,Identify the worst-rated feature,Analysis,0,122,11,2,1,3,2,3,2,2,3,2.5,29.3,Color meaning,Negative,I was not sure which filter affected which chart.
+P002,18-24,Student,Low,Tablet,Prototype A,T4,Find detailed comments for a selected issue,Details,0,163,11,4,1,3,2,2,2,2,3,2.33,15.6,Chart labels,Negative,"On the small screen, the table was hard to read."
+P003,25-34,Research Assistant,Low,Mobile,Prototype A,T1,Find the overall satisfaction score,Overview,0,101,10,3,1,3,2,3,2,2,3,2.5,27.9,Color meaning,Negative,I was not sure which filter affected which chart.
+P003,25-34,Research Assistant,Low,Mobile,Prototype A,T2,Filter results by user group,Filtering,1,85,6,0,0,3,4,2,3,3,3,3.0,75.3,Chart labels,Neutral,"The dashboard worked, but I would prefer more explanations."
+P003,25-34,Research Assistant,Low,Mobile,Prototype A,T3,Identify the worst-rated feature,Analysis,0,96,8,2,1,2,3,2,2,3,1,2.17,29.3,Too much information,Negative,I had trouble finding the detailed comments.
+P003,25-34,Research Assistant,Low,Mobile,Prototype A,T4,Find detailed comments for a selected issue,Details,0,198,19,2,1,3,2,2,2,2,2,2.17,17.7,Chart labels,Negative,I was not sure which filter affected which chart.
+P004,35-44,Student,Low,Laptop,Prototype A,T1,Find the overall satisfaction score,Overview,1,48,2,0,0,4,4,4,3,4,5,4.0,88.3,None,Positive,The dashboard was easy to understand.
+P004,35-44,Student,Low,Laptop,Prototype A,T2,Filter results by user group,Filtering,0,81,7,0,1,3,3,3,2,2,4,2.83,44.3,Color meaning,Negative,I was not sure which filter affected which chart.
+P004,35-44,Student,Low,Laptop,Prototype A,T3,Identify the worst-rated feature,Analysis,1,106,8,0,0,3,3,3,3,3,4,3.17,74.4,None,Neutral,"I found the answer, but it took a little time."
+P004,35-44,Student,Low,Laptop,Prototype A,T4,Find detailed comments for a selected issue,Details,0,168,14,2,1,3,2,1,1,2,3,2.0,19.7,Mobile layout,Negative,The chart labels were confusing.
+P005,18-24,Student,Medium,Laptop,Prototype A,T1,Find the overall satisfaction score,Overview,1,53,3,1,1,4,4,4,4,4,4,4.0,84.0,None,Neutral,"The dashboard worked, but I would prefer more explanations."
+P005,18-24,Student,Medium,Laptop,Prototype A,T2,Filter results by user group,Filtering,0,77,5,4,1,2,2,4,3,3,3,2.83,29.8,Navigation,Negative,"On the small screen, the table was hard to read."
+P005,18-24,Student,Medium,Laptop,Prototype A,T3,Identify the worst-rated feature,Analysis,1,79,5,0,0,3,4,4,4,3,4,3.67,81.9,Too much information,Neutral,"The app was understandable, but some labels could be clearer."
+P005,18-24,Student,Medium,Laptop,Prototype A,T4,Find detailed comments for a selected issue,Details,0,143,11,4,1,3,4,3,2,3,2,2.83,22.3,None,Negative,"On the small screen, the table was hard to read."
+P006,25-34,Student,Medium,Laptop,Prototype A,T1,Find the overall satisfaction score,Overview,1,44,2,1,0,4,4,4,4,4,4,4.0,85.0,None,Neutral,"I found the answer, but it took a little time."
+P006,25-34,Student,Medium,Laptop,Prototype A,T2,Filter results by user group,Filtering,1,65,6,1,0,5,3,4,4,5,3,4.0,82.6,Navigation,Neutral,"The dashboard worked, but I would prefer more explanations."
+P006,25-34,Student,Medium,Laptop,Prototype A,T3,Identify the worst-rated feature,Analysis,1,48,3,1,0,4,5,4,3,3,4,3.83,83.1,Table readability,Neutral,"The charts were useful, but I needed a moment to understand the colors."
+P006,25-34,Student,Medium,Laptop,Prototype A,T4,Find detailed comments for a selected issue,Details,0,90,10,2,1,3,3,3,2,3,3,2.83,35.8,Table readability,Negative,The chart labels were confusing.
+P007,25-34,Research Assistant,Low,Laptop,Prototype A,T1,Find the overall satisfaction score,Overview,0,35,2,1,1,3,3,4,3,3,2,3.0,47.3,Navigation,Negative,I had trouble finding the detailed comments.
+P007,25-34,Research Assistant,Low,Laptop,Prototype A,T2,Filter results by user group,Filtering,0,74,7,2,1,3,2,4,2,3,3,2.83,37.6,Color meaning,Negative,"On the small screen, the table was hard to read."
+P007,25-34,Research Assistant,Low,Laptop,Prototype A,T3,Identify the worst-rated feature,Analysis,1,90,9,0,0,4,4,3,3,2,4,3.33,77.7,Chart labels,Negative,There was too much information on one screen.
+P007,25-34,Research Assistant,Low,Laptop,Prototype A,T4,Find detailed comments for a selected issue,Details,0,150,8,2,1,2,3,3,2,1,3,2.33,24.6,Color meaning,Negative,I was not sure which filter affected which chart.
+P008,25-34,Student,Medium,Laptop,Prototype A,T1,Find the overall satisfaction score,Overview,1,44,2,0,0,4,4,5,4,4,4,4.17,90.2,None,Positive,The overview cards helped me start quickly.
+P008,25-34,Student,Medium,Laptop,Prototype A,T2,Filter results by user group,Filtering,1,58,3,0,0,3,4,4,2,4,4,3.5,82.8,None,Positive,The charts made the results easy to compare.
+P008,25-34,Student,Medium,Laptop,Prototype A,T3,Identify the worst-rated feature,Analysis,0,85,7,2,1,3,3,3,3,3,2,2.83,36.4,Chart labels,Negative,There was too much information on one screen.
+P008,25-34,Student,Medium,Laptop,Prototype A,T4,Find detailed comments for a selected issue,Details,1,84,3,1,0,4,3,3,4,3,3,3.33,74.6,Filters,Neutral,"The layout was okay, but the detail table was a bit dense."
+P009,18-24,Administrative Staff,High,Desktop,Prototype A,T1,Find the overall satisfaction score,Overview,1,29,2,0,0,4,4,5,5,4,5,4.5,94.8,None,Positive,The overview cards helped me start quickly.
+P009,18-24,Administrative Staff,High,Desktop,Prototype A,T2,Filter results by user group,Filtering,1,76,8,1,1,4,4,4,3,3,4,3.67,78.5,Mobile layout,Neutral,"I found the answer, but it took a little time."
+P009,18-24,Administrative Staff,High,Desktop,Prototype A,T3,Identify the worst-rated feature,Analysis,1,59,4,0,0,3,4,3,3,4,3,3.33,81.2,None,Positive,The filters were clear and useful.
+P009,18-24,Administrative Staff,High,Desktop,Prototype A,T4,Find detailed comments for a selected issue,Details,1,83,6,2,1,4,3,4,4,3,4,3.67,73.9,Color meaning,Neutral,"The app was understandable, but some labels could be clearer."
+P010,18-24,Student,Medium,Laptop,Prototype A,T1,Find the overall satisfaction score,Overview,1,36,2,0,0,4,4,3,4,3,4,3.67,86.8,Filters,Neutral,"The app was understandable, but some labels could be clearer."
+P010,18-24,Student,Medium,Laptop,Prototype A,T2,Filter results by user group,Filtering,1,63,4,0,0,4,3,4,3,4,4,3.67,83.7,None,Positive,The charts made the results easy to compare.
+P010,18-24,Student,Medium,Laptop,Prototype A,T3,Identify the worst-rated feature,Analysis,1,53,2,3,1,4,4,4,4,4,4,4.0,76.5,Too much information,Neutral,"The app was understandable, but some labels could be clearer."
+P010,18-24,Student,Medium,Laptop,Prototype A,T4,Find detailed comments for a selected issue,Details,1,89,6,1,0,2,4,3,4,3,4,3.33,74.0,Navigation,Neutral,"The layout was okay, but the detail table was a bit dense."
+P011,18-24,Student,Low,Tablet,Prototype A,T1,Find the overall satisfaction score,Overview,1,68,4,0,0,4,3,4,2,4,4,3.5,81.6,None,Positive,The filters were clear and useful.
+P011,18-24,Student,Low,Tablet,Prototype A,T2,Filter results by user group,Filtering,1,91,8,0,0,3,3,3,4,3,3,3.17,76.1,None,Neutral,"The dashboard worked, but I would prefer more explanations."
+P011,18-24,Student,Low,Tablet,Prototype A,T3,Identify the worst-rated feature,Analysis,1,122,8,0,0,4,3,3,4,4,3,3.5,75.5,None,Positive,The filters were clear and useful.
+P011,18-24,Student,Low,Tablet,Prototype A,T4,Find detailed comments for a selected issue,Details,1,147,10,1,0,3,4,2,2,2,4,2.83,63.1,Chart labels,Negative,I was not sure which filter affected which chart.
+P012,18-24,Teacher,Medium,Laptop,Prototype A,T1,Find the overall satisfaction score,Overview,0,55,2,2,1,4,4,3,3,3,3,3.33,44.1,Color meaning,Negative,I had trouble finding the detailed comments.
+P012,18-24,Teacher,Medium,Laptop,Prototype A,T2,Filter results by user group,Filtering,1,67,5,1,0,5,4,3,4,4,3,3.83,80.9,None,Neutral,"The dashboard worked, but I would prefer more explanations."
+P012,18-24,Teacher,Medium,Laptop,Prototype A,T3,Identify the worst-rated feature,Analysis,1,89,3,1,0,4,3,3,3,3,4,3.33,74.0,None,Neutral,"The app was understandable, but some labels could be clearer."
+P012,18-24,Teacher,Medium,Laptop,Prototype A,T4,Find detailed comments for a selected issue,Details,1,108,8,0,0,4,4,3,3,5,3,3.67,78.6,None,Positive,The charts made the results easy to compare.
+P013,25-34,Student,High,Desktop,Prototype A,T1,Find the overall satisfaction score,Overview,1,29,3,1,0,5,4,5,3,3,3,3.83,85.2,Chart labels,Neutral,"The app was understandable, but some labels could be clearer."
+P013,25-34,Student,High,Desktop,Prototype A,T2,Filter results by user group,Filtering,1,56,4,1,0,4,3,4,4,4,3,3.67,80.7,Chart labels,Neutral,"The dashboard worked, but I would prefer more explanations."
+P013,25-34,Student,High,Desktop,Prototype A,T3,Identify the worst-rated feature,Analysis,1,55,3,1,0,4,4,4,3,4,4,3.83,82.3,None,Neutral,"The layout was okay, but the detail table was a bit dense."
+P013,25-34,Student,High,Desktop,Prototype A,T4,Find detailed comments for a selected issue,Details,1,81,7,0,0,3,4,4,3,4,3,3.5,80.2,None,Positive,I liked that the main findings were visible immediately.
+P014,45-54,Research Assistant,Medium,Mobile,Prototype A,T1,Find the overall satisfaction score,Overview,1,41,2,0,0,3,4,3,4,2,4,3.33,83.2,Filters,Negative,There was too much information on one screen.
+P014,45-54,Research Assistant,Medium,Mobile,Prototype A,T2,Filter results by user group,Filtering,0,93,8,4,1,4,3,2,2,2,3,2.67,26.5,Filters,Negative,"On the small screen, the table was hard to read."
+P014,45-54,Research Assistant,Medium,Mobile,Prototype A,T3,Identify the worst-rated feature,Analysis,1,70,6,1,0,3,4,4,4,3,3,3.5,77.7,Table readability,Neutral,"I found the answer, but it took a little time."
+P014,45-54,Research Assistant,Medium,Mobile,Prototype A,T4,Find detailed comments for a selected issue,Details,1,129,6,0,0,3,3,3,3,3,2,2.83,68.9,Navigation,Neutral,"The app was understandable, but some labels could be clearer."
+P015,18-24,Student,Low,Laptop,Prototype A,T1,Find the overall satisfaction score,Overview,1,42,5,1,0,4,4,3,4,3,4,3.67,82.3,Filters,Neutral,"The app was understandable, but some labels could be clearer."
+P015,18-24,Student,Low,Laptop,Prototype A,T2,Filter results by user group,Filtering,1,95,6,0,0,3,3,4,3,3,3,3.17,75.7,Too much information,Neutral,"I found the answer, but it took a little time."
+P015,18-24,Student,Low,Laptop,Prototype A,T3,Identify the worst-rated feature,Analysis,0,95,9,2,1,3,3,3,2,3,3,2.83,35.2,Too much information,Negative,There was too much information on one screen.
+P015,18-24,Student,Low,Laptop,Prototype A,T4,Find detailed comments for a selected issue,Details,0,166,14,1,1,3,3,3,1,2,3,2.5,28.0,Mobile layout,Negative,I was not sure which filter affected which chart.
+P016,18-24,Student,High,Laptop,Prototype A,T1,Find the overall satisfaction score,Overview,1,34,3,2,1,3,4,3,5,4,4,3.83,80.9,Navigation,Neutral,"I found the answer, but it took a little time."
+P016,18-24,Student,High,Laptop,Prototype A,T2,Filter results by user group,Filtering,1,47,5,2,1,4,5,3,5,5,4,4.33,83.8,Too much information,Neutral,"The app was understandable, but some labels could be clearer."
+P016,18-24,Student,High,Laptop,Prototype A,T3,Identify the worst-rated feature,Analysis,0,73,8,2,1,3,3,3,2,2,3,2.67,36.3,Too much information,Negative,I had trouble finding the detailed comments.
+P016,18-24,Student,High,Laptop,Prototype A,T4,Find detailed comments for a selected issue,Details,1,75,4,2,1,3,4,4,4,4,5,4.0,77.7,None,Neutral,"The layout was okay, but the detail table was a bit dense."
+P017,18-24,Student,Low,Desktop,Prototype A,T1,Find the overall satisfaction score,Overview,1,45,2,1,0,4,3,3,4,3,4,3.5,80.5,None,Neutral,"The charts were useful, but I needed a moment to understand the colors."
+P017,18-24,Student,Low,Desktop,Prototype A,T2,Filter results by user group,Filtering,1,101,11,0,1,3,4,4,4,3,4,3.67,79.4,Filters,Neutral,"The layout was okay, but the detail table was a bit dense."
+P017,18-24,Student,Low,Desktop,Prototype A,T3,Identify the worst-rated feature,Analysis,1,110,7,0,0,3,4,3,4,5,3,3.67,78.4,None,Positive,The overview cards helped me start quickly.
+P017,18-24,Student,Low,Desktop,Prototype A,T4,Find detailed comments for a selected issue,Details,0,179,12,1,1,3,3,3,2,3,3,2.83,29.4,Table readability,Negative,There was too much information on one screen.
+P018,18-24,Administrative Staff,High,Laptop,Prototype A,T1,Find the overall satisfaction score,Overview,1,40,5,1,0,4,4,4,4,4,4,4.0,85.5,Filters,Neutral,"The layout was okay, but the detail table was a bit dense."
+P018,18-24,Administrative Staff,High,Laptop,Prototype A,T2,Filter results by user group,Filtering,1,61,2,2,1,4,5,4,4,4,5,4.33,82.2,Mobile layout,Neutral,"I found the answer, but it took a little time."
+P018,18-24,Administrative Staff,High,Laptop,Prototype A,T3,Identify the worst-rated feature,Analysis,1,70,6,0,0,4,4,4,4,4,4,4.0,85.8,None,Positive,The filters were clear and useful.
+P018,18-24,Administrative Staff,High,Laptop,Prototype A,T4,Find detailed comments for a selected issue,Details,1,94,5,0,0,4,3,3,2,4,4,3.33,77.2,None,Positive,The dashboard was easy to understand.
+P019,18-24,Research Assistant,Medium,Desktop,Prototype A,T1,Find the overall satisfaction score,Overview,1,31,2,0,0,4,4,4,5,4,3,4.0,90.2,None,Positive,I liked that the main findings were visible immediately.
+P019,18-24,Research Assistant,Medium,Desktop,Prototype A,T2,Filter results by user group,Filtering,0,108,7,1,1,3,3,3,3,2,4,3.0,39.0,Table readability,Negative,The chart labels were confusing.
+P019,18-24,Research Assistant,Medium,Desktop,Prototype A,T3,Identify the worst-rated feature,Analysis,1,82,7,2,1,3,4,4,4,3,4,3.67,74.0,None,Neutral,"The dashboard worked, but I would prefer more explanations."
+P019,18-24,Research Assistant,Medium,Desktop,Prototype A,T4,Find detailed comments for a selected issue,Details,1,71,5,0,0,3,3,4,3,3,2,3.0,76.9,None,Neutral,"I found the answer, but it took a little time."
+P020,35-44,Student,Medium,Laptop,Prototype A,T1,Find the overall satisfaction score,Overview,1,38,2,1,0,4,4,3,4,4,3,3.67,82.8,Chart labels,Neutral,"I found the answer, but it took a little time."
+P020,35-44,Student,Medium,Laptop,Prototype A,T2,Filter results by user group,Filtering,1,62,5,0,0,3,4,3,4,4,3,3.5,82.3,None,Positive,The charts made the results easy to compare.
+P020,35-44,Student,Medium,Laptop,Prototype A,T3,Identify the worst-rated feature,Analysis,1,103,9,1,1,4,4,4,3,4,4,3.83,76.8,Color meaning,Neutral,"The charts were useful, but I needed a moment to understand the colors."
+P020,35-44,Student,Medium,Laptop,Prototype A,T4,Find detailed comments for a selected issue,Details,0,141,10,0,1,3,3,3,3,3,4,3.17,40.5,Too much information,Negative,There was too much information on one screen.
+P021,35-44,Teacher,Medium,Laptop,Prototype B,T1,Find the overall satisfaction score,Overview,1,28,2,1,0,5,5,4,4,5,4,4.5,91.2,None,Neutral,"The dashboard worked, but I would prefer more explanations."
+P021,35-44,Teacher,Medium,Laptop,Prototype B,T2,Filter results by user group,Filtering,1,52,2,2,1,4,3,4,5,5,4,4.17,81.8,Filters,Neutral,"I found the answer, but it took a little time."
+P021,35-44,Teacher,Medium,Laptop,Prototype B,T3,Identify the worst-rated feature,Analysis,0,79,8,0,1,4,3,4,4,4,3,3.67,51.9,Table readability,Negative,There was too much information on one screen.
+P021,35-44,Teacher,Medium,Laptop,Prototype B,T4,Find detailed comments for a selected issue,Details,1,84,6,0,0,4,5,3,4,3,4,3.83,82.7,Filters,Neutral,"The app was understandable, but some labels could be clearer."
+P022,18-24,Student,Medium,Desktop,Prototype B,T1,Find the overall satisfaction score,Overview,1,40,2,0,0,4,4,3,5,4,5,4.17,90.7,None,Positive,The overview cards helped me start quickly.
+P022,18-24,Student,Medium,Desktop,Prototype B,T2,Filter results by user group,Filtering,1,69,7,0,1,4,5,4,4,5,4,4.33,88.8,None,Positive,The dashboard was easy to understand.
+P022,18-24,Student,Medium,Desktop,Prototype B,T3,Identify the worst-rated feature,Analysis,1,61,4,0,0,4,4,4,4,4,4,4.0,86.8,None,Positive,The filters were clear and useful.
+P022,18-24,Student,Medium,Desktop,Prototype B,T4,Find detailed comments for a selected issue,Details,1,92,8,0,0,5,4,4,3,4,3,3.83,81.8,None,Positive,The charts made the results easy to compare.
+P023,45-54,Student,Low,Desktop,Prototype B,T1,Find the overall satisfaction score,Overview,0,56,3,1,1,4,5,4,3,3,4,3.83,52.1,Mobile layout,Negative,There was too much information on one screen.
+P023,45-54,Student,Low,Desktop,Prototype B,T2,Filter results by user group,Filtering,1,53,5,0,0,4,4,4,4,4,4,4.0,87.7,None,Positive,The dashboard was easy to understand.
+P023,45-54,Student,Low,Desktop,Prototype B,T3,Identify the worst-rated feature,Analysis,1,88,7,0,0,4,4,4,4,5,4,4.17,85.2,None,Positive,The overview cards helped me start quickly.
+P023,45-54,Student,Low,Desktop,Prototype B,T4,Find detailed comments for a selected issue,Details,1,94,7,0,0,5,3,3,3,3,3,3.33,77.2,None,Neutral,"The dashboard worked, but I would prefer more explanations."
+P024,35-44,Teacher,High,Laptop,Prototype B,T1,Find the overall satisfaction score,Overview,1,37,4,1,1,5,5,4,5,4,4,4.5,90.2,Filters,Neutral,"The layout was okay, but the detail table was a bit dense."
+P024,35-44,Teacher,High,Laptop,Prototype B,T2,Filter results by user group,Filtering,1,63,6,1,1,4,5,4,5,4,4,4.33,85.7,Navigation,Neutral,"I found the answer, but it took a little time."
+P024,35-44,Teacher,High,Laptop,Prototype B,T3,Identify the worst-rated feature,Analysis,1,63,4,0,0,5,5,4,3,4,4,4.17,88.1,None,Positive,The charts made the results easy to compare.
+P024,35-44,Teacher,High,Laptop,Prototype B,T4,Find detailed comments for a selected issue,Details,1,66,3,0,0,5,4,4,4,4,4,4.17,87.7,None,Positive,The charts made the results easy to compare.
+P025,25-34,Student,Low,Laptop,Prototype B,T1,Find the overall satisfaction score,Overview,1,43,3,0,0,3,5,3,4,4,5,4.0,88.9,None,Positive,The charts made the results easy to compare.
+P025,25-34,Student,Low,Laptop,Prototype B,T2,Filter results by user group,Filtering,0,110,7,0,1,5,3,3,3,3,4,3.5,46.9,Navigation,Negative,The chart labels were confusing.
+P025,25-34,Student,Low,Laptop,Prototype B,T3,Identify the worst-rated feature,Analysis,1,97,10,0,0,5,3,4,4,4,3,3.83,81.2,None,Positive,The filters were clear and useful.
+P025,25-34,Student,Low,Laptop,Prototype B,T4,Find detailed comments for a selected issue,Details,1,126,9,2,1,4,5,3,4,3,3,3.67,69.0,None,Neutral,"I found the answer, but it took a little time."
+P026,18-24,Teacher,Medium,Laptop,Prototype B,T1,Find the overall satisfaction score,Overview,1,35,2,0,0,5,4,5,5,3,5,4.5,94.1,Navigation,Neutral,"I found the answer, but it took a little time."
+P026,18-24,Teacher,Medium,Laptop,Prototype B,T2,Filter results by user group,Filtering,1,71,6,0,1,5,4,4,4,4,3,4.0,85.7,None,Positive,I liked that the main findings were visible immediately.
+P026,18-24,Teacher,Medium,Laptop,Prototype B,T3,Identify the worst-rated feature,Analysis,1,84,6,0,1,4,3,4,5,4,5,4.17,85.7,None,Positive,I liked that the main findings were visible immediately.
+P026,18-24,Teacher,Medium,Laptop,Prototype B,T4,Find detailed comments for a selected issue,Details,1,82,6,0,0,4,5,3,3,3,4,3.67,81.5,Filters,Neutral,"The layout was okay, but the detail table was a bit dense."
+P027,45-54,Student,Medium,Desktop,Prototype B,T1,Find the overall satisfaction score,Overview,1,37,7,0,0,4,5,4,5,5,5,4.67,95.4,None,Positive,I liked that the main findings were visible immediately.
+P027,45-54,Student,Medium,Desktop,Prototype B,T2,Filter results by user group,Filtering,1,52,3,0,0,4,4,5,4,4,5,4.33,90.7,None,Positive,The charts made the results easy to compare.
+P027,45-54,Student,Medium,Desktop,Prototype B,T3,Identify the worst-rated feature,Analysis,1,57,5,0,0,4,4,4,4,3,4,3.83,85.8,Filters,Neutral,"The dashboard worked, but I would prefer more explanations."
+P027,45-54,Student,Medium,Desktop,Prototype B,T4,Find detailed comments for a selected issue,Details,1,83,5,0,0,3,4,3,4,4,4,3.67,81.4,None,Positive,The charts made the results easy to compare.
+P028,18-24,Student,Medium,Laptop,Prototype B,T1,Find the overall satisfaction score,Overview,1,31,2,1,0,4,5,5,5,4,4,4.5,90.9,Table readability,Neutral,"The layout was okay, but the detail table was a bit dense."
+P028,18-24,Student,Medium,Laptop,Prototype B,T2,Filter results by user group,Filtering,1,49,2,0,0,5,5,4,4,4,4,4.33,91.1,None,Positive,The overview cards helped me start quickly.
+P028,18-24,Student,Medium,Laptop,Prototype B,T3,Identify the worst-rated feature,Analysis,1,59,5,0,0,4,5,4,4,5,4,4.33,89.9,None,Positive,The overview cards helped me start quickly.
+P028,18-24,Student,Medium,Laptop,Prototype B,T4,Find detailed comments for a selected issue,Details,1,62,5,0,0,3,4,3,3,4,4,3.5,82.3,None,Positive,I liked that the main findings were visible immediately.
+P029,45-54,Research Assistant,Medium,Tablet,Prototype B,T1,Find the overall satisfaction score,Overview,0,43,5,1,1,5,3,4,3,4,4,3.83,53.6,Navigation,Negative,I had trouble finding the detailed comments.
+P029,45-54,Research Assistant,Medium,Tablet,Prototype B,T2,Filter results by user group,Filtering,1,66,4,0,0,4,4,3,4,5,4,4.0,86.2,None,Positive,The dashboard was easy to understand.
+P029,45-54,Research Assistant,Medium,Tablet,Prototype B,T3,Identify the worst-rated feature,Analysis,1,67,4,0,0,4,5,4,5,3,4,4.17,87.6,None,Neutral,"The app was understandable, but some labels could be clearer."
+P029,45-54,Research Assistant,Medium,Tablet,Prototype B,T4,Find detailed comments for a selected issue,Details,1,99,10,0,0,5,5,4,4,3,4,4.17,84.0,Navigation,Neutral,"The app was understandable, but some labels could be clearer."
+P030,35-44,Student,High,Laptop,Prototype B,T1,Find the overall satisfaction score,Overview,1,25,2,0,0,5,5,4,4,5,5,4.67,96.8,None,Positive,The overview cards helped me start quickly.
+P030,35-44,Student,High,Laptop,Prototype B,T2,Filter results by user group,Filtering,1,51,3,2,1,5,4,5,5,4,5,4.67,86.3,Chart labels,Neutral,"I found the answer, but it took a little time."
+P030,35-44,Student,High,Laptop,Prototype B,T3,Identify the worst-rated feature,Analysis,0,66,5,2,1,4,4,5,4,3,4,4.0,48.8,Color meaning,Negative,I had trouble finding the detailed comments.
+P030,35-44,Student,High,Laptop,Prototype B,T4,Find detailed comments for a selected issue,Details,1,69,7,1,0,4,4,4,4,5,4,4.17,83.6,Chart labels,Neutral,"The dashboard worked, but I would prefer more explanations."
+P031,35-44,Research Assistant,Medium,Laptop,Prototype B,T1,Find the overall satisfaction score,Overview,1,42,2,0,0,4,4,4,4,4,3,3.83,87.5,None,Positive,The dashboard was easy to understand.
+P031,35-44,Research Assistant,Medium,Laptop,Prototype B,T2,Filter results by user group,Filtering,1,56,6,0,0,3,5,4,5,4,4,4.17,88.9,None,Positive,The charts made the results easy to compare.
+P031,35-44,Research Assistant,Medium,Laptop,Prototype B,T3,Identify the worst-rated feature,Analysis,1,87,10,0,1,5,4,4,4,4,4,4.17,85.4,None,Positive,The charts made the results easy to compare.
+P031,35-44,Research Assistant,Medium,Laptop,Prototype B,T4,Find detailed comments for a selected issue,Details,0,116,10,2,1,3,3,3,2,4,4,3.17,35.8,Chart labels,Negative,"On the small screen, the table was hard to read."
+P032,18-24,Student,High,Tablet,Prototype B,T1,Find the overall satisfaction score,Overview,1,30,2,0,0,5,3,4,5,4,4,4.17,91.8,None,Positive,The charts made the results easy to compare.
+P032,18-24,Student,High,Tablet,Prototype B,T2,Filter results by user group,Filtering,1,51,2,0,0,4,3,4,4,4,3,3.67,85.1,None,Positive,I liked that the main findings were visible immediately.
+P032,18-24,Student,High,Tablet,Prototype B,T3,Identify the worst-rated feature,Analysis,1,62,4,0,0,5,5,4,4,4,4,4.33,89.6,None,Positive,The filters were clear and useful.
+P032,18-24,Student,High,Tablet,Prototype B,T4,Find detailed comments for a selected issue,Details,1,71,5,0,0,4,4,4,4,5,4,4.17,87.2,None,Positive,I liked that the main findings were visible immediately.
+P033,18-24,Student,Medium,Laptop,Prototype B,T1,Find the overall satisfaction score,Overview,1,31,2,0,0,4,4,3,4,5,4,4.0,90.2,None,Positive,The dashboard was easy to understand.
+P033,18-24,Student,Medium,Laptop,Prototype B,T2,Filter results by user group,Filtering,1,39,2,1,0,4,4,4,4,3,5,4.0,85.6,None,Neutral,"The app was understandable, but some labels could be clearer."
+P033,18-24,Student,Medium,Laptop,Prototype B,T3,Identify the worst-rated feature,Analysis,1,56,3,1,0,4,4,4,5,4,4,4.17,85.1,Filters,Neutral,"The dashboard worked, but I would prefer more explanations."
+P033,18-24,Student,Medium,Laptop,Prototype B,T4,Find detailed comments for a selected issue,Details,1,73,9,0,0,4,4,5,4,4,4,4.17,86.9,None,Positive,The filters were clear and useful.
+P034,18-24,Student,High,Laptop,Prototype B,T1,Find the overall satisfaction score,Overview,1,25,2,0,0,5,5,5,4,4,4,4.5,95.3,None,Positive,The filters were clear and useful.
+P034,18-24,Student,High,Laptop,Prototype B,T2,Filter results by user group,Filtering,0,55,3,2,1,4,5,4,3,4,3,3.83,48.5,Color meaning,Negative,I was not sure which filter affected which chart.
+P034,18-24,Student,High,Laptop,Prototype B,T3,Identify the worst-rated feature,Analysis,1,49,6,1,0,5,5,5,4,4,5,4.67,90.3,Mobile layout,Neutral,"The layout was okay, but the detail table was a bit dense."
+P034,18-24,Student,High,Laptop,Prototype B,T4,Find detailed comments for a selected issue,Details,1,58,3,2,1,4,4,4,4,4,4,4.0,79.7,Filters,Neutral,"The charts were useful, but I needed a moment to understand the colors."
+P035,25-34,Research Assistant,Medium,Mobile,Prototype B,T1,Find the overall satisfaction score,Overview,0,68,8,0,1,3,3,3,3,4,3,3.17,48.8,Table readability,Negative,The chart labels were confusing.
+P035,25-34,Research Assistant,Medium,Mobile,Prototype B,T2,Filter results by user group,Filtering,1,59,5,1,0,4,3,4,5,4,3,3.83,81.8,Too much information,Neutral,"The charts were useful, but I needed a moment to understand the colors."
+P035,25-34,Research Assistant,Medium,Mobile,Prototype B,T3,Identify the worst-rated feature,Analysis,1,92,6,1,0,4,3,5,4,4,4,4.0,79.5,Navigation,Neutral,"The app was understandable, but some labels could be clearer."
+P035,25-34,Research Assistant,Medium,Mobile,Prototype B,T4,Find detailed comments for a selected issue,Details,0,136,11,0,1,4,2,3,3,3,3,3.0,39.5,Color meaning,Negative,There was too much information on one screen.
+P036,55+,Student,Medium,Laptop,Prototype B,T1,Find the overall satisfaction score,Overview,1,22,2,0,0,5,4,5,5,4,5,4.67,97.1,None,Positive,I liked that the main findings were visible immediately.
+P036,55+,Student,Medium,Laptop,Prototype B,T2,Filter results by user group,Filtering,1,61,8,0,0,5,4,3,5,4,4,4.17,88.3,None,Positive,The overview cards helped me start quickly.
+P036,55+,Student,Medium,Laptop,Prototype B,T3,Identify the worst-rated feature,Analysis,1,62,5,0,0,5,5,4,5,4,5,4.67,92.6,None,Positive,I liked that the main findings were visible immediately.
+P036,55+,Student,Medium,Laptop,Prototype B,T4,Find detailed comments for a selected issue,Details,0,105,7,1,1,3,3,4,2,3,3,3.0,39.3,Too much information,Negative,I was not sure which filter affected which chart.
+P037,18-24,Student,Medium,Laptop,Prototype B,T1,Find the overall satisfaction score,Overview,1,41,6,1,0,5,4,4,4,4,4,4.17,86.8,Too much information,Neutral,"The layout was okay, but the detail table was a bit dense."
+P037,18-24,Student,Medium,Laptop,Prototype B,T2,Filter results by user group,Filtering,1,57,5,2,1,3,4,5,4,5,4,4.17,81.3,Filters,Neutral,"The dashboard worked, but I would prefer more explanations."
+P037,18-24,Student,Medium,Laptop,Prototype B,T3,Identify the worst-rated feature,Analysis,1,79,9,1,0,4,4,5,4,4,4,4.17,82.5,Color meaning,Neutral,"The dashboard worked, but I would prefer more explanations."
+P037,18-24,Student,Medium,Laptop,Prototype B,T4,Find detailed comments for a selected issue,Details,1,70,6,0,0,4,4,4,4,3,4,3.83,84.3,Chart labels,Neutral,"I found the answer, but it took a little time."
+P038,18-24,Student,High,Laptop,Prototype B,T1,Find the overall satisfaction score,Overview,1,29,2,0,0,4,4,5,5,4,5,4.5,94.8,None,Positive,The overview cards helped me start quickly.
+P038,18-24,Student,High,Laptop,Prototype B,T2,Filter results by user group,Filtering,1,38,2,1,0,5,5,5,4,4,4,4.5,90.1,Filters,Neutral,"The layout was okay, but the detail table was a bit dense."
+P038,18-24,Student,High,Laptop,Prototype B,T3,Identify the worst-rated feature,Analysis,1,56,5,0,0,4,4,4,4,4,3,3.83,85.9,None,Positive,The overview cards helped me start quickly.
+P038,18-24,Student,High,Laptop,Prototype B,T4,Find detailed comments for a selected issue,Details,1,62,3,1,0,4,4,5,5,5,3,4.33,85.8,None,Neutral,"The dashboard worked, but I would prefer more explanations."
+P039,18-24,Student,High,Laptop,Prototype B,T1,Find the overall satisfaction score,Overview,1,30,3,1,0,5,4,4,4,5,4,4.33,89.5,None,Neutral,"The dashboard worked, but I would prefer more explanations."
+P039,18-24,Student,High,Laptop,Prototype B,T2,Filter results by user group,Filtering,1,28,3,0,0,4,5,4,5,5,4,4.5,94.9,None,Positive,The dashboard was easy to understand.
+P039,18-24,Student,High,Laptop,Prototype B,T3,Identify the worst-rated feature,Analysis,1,58,5,2,1,3,5,5,5,4,5,4.5,84.0,None,Neutral,"The dashboard worked, but I would prefer more explanations."
+P039,18-24,Student,High,Laptop,Prototype B,T4,Find detailed comments for a selected issue,Details,1,54,3,0,0,3,5,4,4,5,4,4.17,89.1,None,Positive,The filters were clear and useful.
+P040,25-34,Research Assistant,Low,Desktop,Prototype B,T1,Find the overall satisfaction score,Overview,1,33,2,0,0,4,4,4,4,4,4,4.0,90.0,None,Positive,The charts made the results easy to compare.
+P040,25-34,Research Assistant,Low,Desktop,Prototype B,T2,Filter results by user group,Filtering,1,65,4,0,0,4,5,4,4,4,4,4.17,87.9,None,Positive,The dashboard was easy to understand.
+P040,25-34,Research Assistant,Low,Desktop,Prototype B,T3,Identify the worst-rated feature,Analysis,1,57,2,0,0,4,3,5,4,4,5,4.17,88.8,None,Positive,The dashboard was easy to understand.
+P040,25-34,Research Assistant,Low,Desktop,Prototype B,T4,Find detailed comments for a selected issue,Details,1,83,5,0,0,3,4,3,4,5,3,3.67,81.4,None,Positive,The filters were clear and useful.
