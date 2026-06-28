@@ -57,10 +57,29 @@ def _duckdb_artifact_is_usable() -> bool:
 
 
 def _write_duckdb_from_existing_parquets() -> None:
-    flights_clean = pl.read_parquet(FLIGHTS_CLEAN_PATH)
-    airports_clean = pl.read_parquet(AIRPORTS_CLEAN_PATH)
-    flights_enriched = pl.read_parquet(FLIGHTS_ENRICHED_PATH)
-    _write_duckdb_artifacts(flights_clean, airports_clean, flights_enriched)
+    print("Creating DuckDB views from existing Parquet files...", flush=True)
+
+    count_connection = duckdb.connect()
+    try:
+        row_count = count_connection.execute(
+            f"SELECT COUNT(*) FROM read_parquet('{FLIGHTS_CLEAN_PATH.as_posix()}')"
+        ).fetchone()[0]
+    finally:
+        count_connection.close()
+
+    class _FrameInfo:
+        def __init__(self, height: int) -> None:
+            self.height = height
+
+    fake_flights_clean = _FrameInfo(row_count)
+    fake_airports_clean = _FrameInfo(0)
+    fake_flights_enriched = _FrameInfo(0)
+
+    _write_duckdb_artifacts(
+        fake_flights_clean,      # type: ignore[arg-type]
+        fake_airports_clean,     # type: ignore[arg-type]
+        fake_flights_enriched,   # type: ignore[arg-type]
+    )
 
 
 def build_processed_artifacts() -> None:
