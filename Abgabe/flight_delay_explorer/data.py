@@ -30,10 +30,37 @@ from flight_delay_explorer.utils import time_of_day_from_hour
 
 def ensure_processed_data(force: bool = False) -> None:
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
-    required_files = [FLIGHTS_CLEAN_PATH, AIRPORTS_CLEAN_PATH, FLIGHTS_ENRICHED_PATH, DUCKDB_PATH]
-    if not force and all(path.exists() for path in required_files):
-        return
+    parquet_files = [FLIGHTS_CLEAN_PATH, AIRPORTS_CLEAN_PATH, FLIGHTS_ENRICHED_PATH]
+    required_files = [*parquet_files, DUCKDB_PATH]
+
+    if not force:
+        if all(path.exists() for path in required_files) and _duckdb_artifact_is_usable():
+            return
+        if all(path.exists() for path in parquet_files):
+            _write_duckdb_from_existing_parquets()
+            return
+
     build_processed_artifacts()
+
+
+def _duckdb_artifact_is_usable() -> bool:
+    if not DUCKDB_PATH.exists():
+        return False
+    connection = duckdb.connect(str(DUCKDB_PATH), read_only=True)
+    try:
+        connection.execute("SELECT COUNT(*) FROM flights_enriched").fetchone()
+        return True
+    except Exception:
+        return False
+    finally:
+        connection.close()
+
+
+def _write_duckdb_from_existing_parquets() -> None:
+    flights_clean = pl.read_parquet(FLIGHTS_CLEAN_PATH)
+    airports_clean = pl.read_parquet(AIRPORTS_CLEAN_PATH)
+    flights_enriched = pl.read_parquet(FLIGHTS_ENRICHED_PATH)
+    _write_duckdb_artifacts(flights_clean, airports_clean, flights_enriched)
 
 
 def build_processed_artifacts() -> None:
